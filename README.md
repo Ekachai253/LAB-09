@@ -1,3 +1,5 @@
+
+###นายเอกชัย ภมรสุขนิรันดิ์ 57030253
 #ใบงานที่ 9
 ##การเขียนโปรแกรมกราฟฟิกส์ด้วย GDI+ (1)
 ##1.	กล่าวนำ
@@ -51,6 +53,10 @@ GDI+ (Graphics Device Interface Plus) เป็นกราฟฟิกส์ไ
  
  * ทดลอง Build และ Run โปรแกรม
  * บันทึกผลที่ได้
+ 
+ #ผลที่ได้ จะเป็นรูปสี่เหลี่ยมจัสตุรัสสีน้ำเงิน
+![](https://github.com/Ekachai253/LAB-09/blob/714ad9b0ff768410983c3a6afe1670d44e591e66/imgs/1.jpg)
+ 
 
 ###2.5.	การทดลองย่อย 2  การใช้สี
 ####2.5.1.	การใช้สีโดยการผสมค่าสี
@@ -59,34 +65,60 @@ GDI+ (Graphics Device Interface Plus) เป็นกราฟฟิกส์ไ
 <p align="center">
 <img src="https://github.com/Desktop-Programming-Lab-2559/LAB-09/blob/master/imgs/lab9-4.png">
 </p> 
- 
+#ผลที่ได้ 
+![](https://github.com/Ekachai253/LAB-09/blob/714ad9b0ff768410983c3a6afe1670d44e591e66/imgs/2.jpg) 
 ####2.5.2.	โดยการใช้ methode FromName 
 * เพิ่ม Code ต่อไปนี้ลงในฟังก์ชัน private void Form1_Paint(object sender, PaintEventArgs e) แล้วทดลอง Run โปรแกรม
  <p align="center">
 <img src="https://github.com/Desktop-Programming-Lab-2559/LAB-09/blob/master/imgs/lab9-5.png">
 </p> 
+#ผลที่ได้ 
+![](https://github.com/Ekachai253/LAB-09/blob/714ad9b0ff768410983c3a6afe1670d44e591e66/imgs/3.jpg)
 
 ####2.5.3. การทดลองย่อย 3  -- การใช้ปากกา
 * การทดลองเปลี่ยนขนาดและสีของปากกา โดยใช้ properties Width และ Color
 <p align="center">
 <img src="https://github.com/Desktop-Programming-Lab-2559/LAB-09/blob/master/imgs/lab9-6.png">
 </p> 
+
+#ผลที่ได้ 
+![](https://github.com/Ekachai253/LAB-09/blob/18a66eb83c838a978dc33b9b7e7cd6924cfe1617/imgs/4.jpg)
+
 * เปลี่ยนชนิดของปากกาเป็นเส้นประ
 <p align="center">
 <img src="https://github.com/Desktop-Programming-Lab-2559/LAB-09/blob/master/imgs/lab9-7.png">
 </p> 
+#ผลที่ได้ 
+![](https://github.com/Ekachai253/LAB-09/blob/714ad9b0ff768410983c3a6afe1670d44e591e66/imgs/5.jpg)
 
 * ใช้ Pen ร่วมกับ Brush  
  <p align="center">
 <img src="https://github.com/Desktop-Programming-Lab-2559/LAB-09/blob/master/imgs/lab9-8.png">
 </p> 
+#ผลที่ได้ 
+![](https://github.com/Ekachai253/LAB-09/blob/b273b9a6608d4d1070263b479cc7765e451f3c2c/imgs/6.jpg)
 
 * ใช้ Pen ร่วมกับ HatchBrush  เพื่อสร้างลายเส้นแบบต่างๆ
  <p align="center">
 <img src="https://github.com/Desktop-Programming-Lab-2559/LAB-09/blob/master/imgs/lab9-9.png">
 </p> 
+#ผลที่ได้ 
+![](https://github.com/Ekachai253/LAB-09/blob/714ad9b0ff768410983c3a6afe1670d44e591e66/imgs/7.jpg)
  
 
 ##คำถาม/แบบฝึกหัดท้ายการทดลอง
 * ให้เปลี่ยน Color และ HatchStyle เป็นแบบต่างๆ เพื่อดูความเปลี่ยนแปลง 
  * เลือกรูปแบจาก [MSDN: HatchStyle Enumeration](https://msdn.microsoft.com/en-us/library/system.drawing.drawing2d.hatchstyle(v=vs.110).aspx) แล้ววาดภาพมาส่งอย่างน้อย 6 รูปแบบ 
+ 
+##รูปที่ 1 
+![](https://github.com/Ekachai253/LAB-09/blob/aad03570664c921a3c7d67ec9bd049475fd1949d/imgs/11.jpg)
+##รูปที่ 2
+![](https://github.com/Ekachai253/LAB-09/blob/aad03570664c921a3c7d67ec9bd049475fd1949d/imgs/22.jpg)
+##รูปที่ 3 
+![](https://github.com/Ekachai253/LAB-09/blob/aad03570664c921a3c7d67ec9bd049475fd1949d/imgs/33.jpg)
+##รูปที่ 4 
+![](https://github.com/Ekachai253/LAB-09/blob/aad03570664c921a3c7d67ec9bd049475fd1949d/imgs/44.jpg)
+##รูปที่ 5 
+![](https://github.com/Ekachai253/LAB-09/blob/aad03570664c921a3c7d67ec9bd049475fd1949d/imgs/55.jpg)
+##รูปที่ 6 
+![](https://github.com/Ekachai253/LAB-09/blob/aad03570664c921a3c7d67ec9bd049475fd1949d/imgs/66.jpg)
